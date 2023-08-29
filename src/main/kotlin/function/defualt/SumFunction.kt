@@ -1,4 +1,4 @@
-package function
+package function.defualt
 
 /**
  * 최상위 함수는 어디에 있든 사용 가능.
@@ -8,8 +8,8 @@ fun main() { // 최상위 함수
     val result1 = sum(2, 3)
     println("result1 = $result1")
 
-    val x: Int = 5;
-    val y: Int = 6;
+    val x: Int = 5
+    val y: Int = 6
 
     println(max(x, y))
 }
